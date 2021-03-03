@@ -1,8 +1,12 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransformerTask.Tests", "TransformerTask.Tests\TransformerTask.Tests.csproj", "{8EC232ED-7BE5-48E9-B89C-65713733E94B}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransformerTask.Tests", "TransformerTask.Tests\TransformerTask.Tests.csproj", "{8EC232ED-7BE5-48E9-B89C-65713733E94B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransformerTask", "TransformerTask\TransformerTask.csproj", "{4C85712F-F103-4EDC-BD10-38CF64CABF95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransformerTask", "TransformerTask\TransformerTask.csproj", "{4C85712F-F103-4EDC-BD10-38CF64CABF95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransformerTask_2", "TransformerTask_2\TransformerTask_2.csproj", "{90CF74AE-2400-4691-9A1A-402E63D8CC27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +22,15 @@ Global
 		{4C85712F-F103-4EDC-BD10-38CF64CABF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C85712F-F103-4EDC-BD10-38CF64CABF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C85712F-F103-4EDC-BD10-38CF64CABF95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CF74AE-2400-4691-9A1A-402E63D8CC27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CF74AE-2400-4691-9A1A-402E63D8CC27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CF74AE-2400-4691-9A1A-402E63D8CC27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CF74AE-2400-4691-9A1A-402E63D8CC27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DD57A4A-5A43-4F0D-AFB9-83D5D8E5E907}
 	EndGlobalSection
 EndGlobal
